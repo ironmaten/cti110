@@ -7,7 +7,7 @@ print('Enter the amount of money as a float: $', end = '')
 amount = float(input())
 amount = int(amount * 100)
 
-if amount == 0:
+if amount <= 0:
     print('No change')
 
 else:
